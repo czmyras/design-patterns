@@ -1,7 +1,10 @@
 package pl.czmyras.designpatterns.abstractfactory;
 
-import pl.czmyras.designpatterns.colors.Color;
-import pl.czmyras.designpatterns.shapes.*;
+import pl.czmyras.designpatterns.domain.colors.Color;
+import pl.czmyras.designpatterns.domain.shapes.Circle;
+import pl.czmyras.designpatterns.domain.shapes.Rectangle;
+import pl.czmyras.designpatterns.domain.shapes.Shape;
+import pl.czmyras.designpatterns.domain.shapes.Square;
 
 public class ShapeFactory extends AbstractFactory {
     @Override

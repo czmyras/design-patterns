@@ -1,8 +1,7 @@
 package pl.czmyras.designpatterns.abstractfactory;
 
-import pl.czmyras.designpatterns.colors.Color;
-import pl.czmyras.designpatterns.shapes.Shape;
-import pl.czmyras.designpatterns.shapes.ShapeType;
+import pl.czmyras.designpatterns.domain.colors.Color;
+import pl.czmyras.designpatterns.domain.shapes.Shape;
 
 public abstract class AbstractFactory {
     abstract Color getColor(String color);

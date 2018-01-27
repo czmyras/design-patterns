@@ -1,9 +1,9 @@
 package pl.czmyras.designpatterns.factory;
 
-import pl.czmyras.designpatterns.shapes.Circle;
-import pl.czmyras.designpatterns.shapes.Rectangle;
-import pl.czmyras.designpatterns.shapes.Shape;
-import pl.czmyras.designpatterns.shapes.Square;
+import pl.czmyras.designpatterns.domain.shapes.Circle;
+import pl.czmyras.designpatterns.domain.shapes.Rectangle;
+import pl.czmyras.designpatterns.domain.shapes.Shape;
+import pl.czmyras.designpatterns.domain.shapes.Square;
 
 public class ShapeFactory {
 

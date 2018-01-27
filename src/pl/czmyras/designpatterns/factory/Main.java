@@ -1,6 +1,6 @@
 package pl.czmyras.designpatterns.factory;
 
-import pl.czmyras.designpatterns.shapes.*;
+import pl.czmyras.designpatterns.domain.shapes.Shape;
 
 public class Main {
 

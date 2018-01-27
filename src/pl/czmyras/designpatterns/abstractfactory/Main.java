@@ -1,8 +1,7 @@
 package pl.czmyras.designpatterns.abstractfactory;
 
-import pl.czmyras.designpatterns.colors.Color;
-import pl.czmyras.designpatterns.factory.ShapeFactory;
-import pl.czmyras.designpatterns.shapes.Shape;
+import pl.czmyras.designpatterns.domain.colors.Color;
+import pl.czmyras.designpatterns.domain.shapes.Shape;
 
 public class Main {
 

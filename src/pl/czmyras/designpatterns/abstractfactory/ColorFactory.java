@@ -1,11 +1,10 @@
 package pl.czmyras.designpatterns.abstractfactory;
 
-import pl.czmyras.designpatterns.colors.Blue;
-import pl.czmyras.designpatterns.colors.Color;
-import pl.czmyras.designpatterns.colors.Green;
-import pl.czmyras.designpatterns.colors.Red;
-import pl.czmyras.designpatterns.shapes.Shape;
-import pl.czmyras.designpatterns.shapes.ShapeType;
+import pl.czmyras.designpatterns.domain.colors.Blue;
+import pl.czmyras.designpatterns.domain.colors.Color;
+import pl.czmyras.designpatterns.domain.colors.Green;
+import pl.czmyras.designpatterns.domain.colors.Red;
+import pl.czmyras.designpatterns.domain.shapes.Shape;
 
 public class ColorFactory extends AbstractFactory {
     @Override
